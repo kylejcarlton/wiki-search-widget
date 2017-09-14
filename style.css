@@ -1,0 +1,44 @@
+body {
+    background: rgb(22,102,101);
+}
+#main{
+  width: 600px;
+  margin: auto;
+}
+#logo {
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin: auto;
+}
+#search{
+  height: 50px;
+  width: 600px;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+}
+#or{
+text-shadow: 2px 2px 8px white;
+color: white;
+}
+#results{
+  width: 400px;
+  display: block;
+  margin: auto;
+  color: white;
+  padding-top: 50px;
+}
+p{
+  color: rgb(220,220,220);
+}
+a:link {
+  color: white;
+}
+a:hover{
+  text-shadow: 2px 2px 8px white;
+}
+a:visited {
+  color: rgb(169,169,169);;
+}

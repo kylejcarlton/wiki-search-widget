@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<title>Wikipedia Viewer</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+
+<body>
+<div id="main">
+  <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wikipedia-logo-blank.svg/500px-Wikipedia-logo-blank.svg.png">
+  <div id="search">
+      <form>
+        <a href = "https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="button" class="btn">Random Article  <i class="fa fa-random" aria-hidden="true"></i></button></a>
+        <h3 id="or">OR</h3>
+        <input type="text" value="Search Wikipedia" id="searchbox" onfocus="if(this.value == 'Search Wikipedia') { this.value = ''; }"/>
+        <button type="button" class="btn" id="wikisearch"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </form>
+
+  </div><!--SEARCH DIV-->
+  <div id="results">
+  </div>
+</div>
+
+</body>
+</html>

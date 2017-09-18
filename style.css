@@ -2,7 +2,7 @@ body {
     background: rgb(22,102,101);
 }
 #main{
-  width: 600px;
+  width: 320px;
   margin: auto;
 }
 #logo {
@@ -13,7 +13,7 @@ body {
 }
 #search{
   height: 50px;
-  width: 600px;
+  width: 320px;
   display: inline-block;
   text-align: center;
   margin: auto;
@@ -24,7 +24,7 @@ text-shadow: 2px 2px 8px white;
 color: white;
 }
 #results{
-  width: 400px;
+  width: 320px;
   display: block;
   margin: auto;
   color: white;
@@ -41,4 +41,7 @@ a:hover{
 }
 a:visited {
   color: rgb(169,169,169);;
+}
+input {
+  font-size: 16px;
 }

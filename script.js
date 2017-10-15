@@ -1,19 +1,16 @@
 $(document).ready(function(){
-
-  $("#searchbox").keypress(function(e){
+  $("html").keydown(function(e){
     //https://stackoverflow.com/questions/9146651/trigger-an-event-on-click-and-enter
     //https://stackoverflow.com/questions/20791954/pressing-enter-doesnt-trigger-button-click
     //https://stackoverflow.com/questions/16061202/i-hit-the-enter-key-on-keyboard-and-page-refreshes-how-do-i-prevent-this-and-st
     if(e.which == 13){
-      event.preventDefault();
+      e.preventDefault();
       performSearch();
     }
   });
-
   $("#wikisearch").click(function(){
     performSearch();
   });
-
   function performSearch(){
     var searchString = $("#searchbox").focus().val();
     var settings = {
